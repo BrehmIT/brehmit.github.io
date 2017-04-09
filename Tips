@@ -1,0 +1,9 @@
+Keep an entire backup of your computer on BOTH a cloud service (Google Drive, Dropbox, OneDrive) AND a local hard drive (a <a href=http://www.amazon.com/SanDisk-Cruzer-Frustration-Free-Packaging--SDCZ36-016G-AFFP/dp/B007JR5368/ref=sr_1_1?ie=UTF8&qid=1432394357&sr=8-1&keywords=16gb+flash+drive'>16GB Flash Drive</a> should be enough to hold all of your important files.)
+Vary the passwords you choose between websites, because if someone hacks your social network, they could gain access to financial info!
+Keep all your devices on the latest version of software. This can fix many issues. However, some issues have arised with new versions. NEVER update to a 'Beta' software on your main device!
+On a computer running Mac OSX, you may be redirected to a page called 'MacKeeper' that will suggest you clean your Mac. This is a partially working program, because it may clean some of your computer, but it mostly exists to annoy you and do other harmful things to your computer. I would recommend <a href='http://macpaw.com/cleanmymac'>CleanMyMac by MacPaw</a> instead.
+A simple reboot will fix most problems. 'Have you tried turning it off and on again?' :)
+Verify that you have your settings configured correctly on your Mac by opening System Preferences, clicking Security and Privacy, clicking General at the top, and looking under 'Allow apps downloaded from:'. I would recommend setting this to only Mac App Store and identified developers, but feel free to select your own.
+If you have a laptop, but you work plugged in often, unplug it when it gets to 100%. Overcharging decreases your battery life.
+Secure your Wifi! Change the Wifi password, router password, EVERYTHING. Someone, if on your network, could use arp-spoof to gather your passwords and other info.
+Don't set laptops on cushy surfaces, because the air from the fans will be blocked. This can cause overheating.
