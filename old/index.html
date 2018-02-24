@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+  <script src="lib/sweet-alert.min.js"></script>
+  <script src="js/konami.js"></script>
+  <link rel="stylesheet" type="text/css" href="lib/sweet-alert.css">
+    <script src="js/loginindex.js"></script>
+	<link rel="stylesheet" href="css/loginstyle.css">
+  <link rel="stylesheet" href="css/analyticscss.css">
+    <link rel="stylesheet" href="css/carouselcss.css">
+    <link rel="stylesheet" href="css/iphone.css">
+    <link rel="stylesheet" href="css/ipad.css">
+    <link rel="stylesheet" href="css/imac.css">
+    <link rel="stylesheet" href="css/macbook.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="http://i.imgur.com/1nXOgXv.png" rel="image_src">
+    <meta property="og:image" content="http://i.imgur.com/1nXOgXv.png"/>
+	<meta property="og:description" content="Brehm IT strives to be the best technology assistance company out there.
+You can still choose GeekSquad, if spending tons of money and waiting forever is your thing." />
+
+    <title>Brehm IT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <link href="css/aboutcss.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script src="https://widget.battleforthenet.com/widget.js" async></script>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+
+var easter_egg = new Konami();
+easter_egg.load('http://brehmit.com/konami')
+
+function contactMethods() {
+  swal({
+    title: "Booking",
+    text: "To book an appointment, contact me with the button below. If you live close to me, you can also meet me to schedule.",
+    type: "info",
+    showCancelButton: true,
+    confirmButtonColor: "#3498db",
+    cancelButtonText: "Nevermind" ,
+    confirmButtonText: "Email",
+    closeOnConfirm: true },
+  function(){
+    document.location.href = "mailto:carter0906@gmail.com"; });
+}
+
+function bold(id, bold) {
+  if (bold == 1) {
+    document.getElementById(id).style.fontWeight = 'bold';
+  }
+}
+
+function getTV() {
+  var OSName="Unknown OS";
+  if (navigator.appVersion.indexOf("Win")!=-1) {
+    location.href = 'http://download.teamviewer.com/download/TeamViewerQS_en.exe';
+    swal("Program Downloaded", "A program called 'TeamViewerQS_en_exe' has been downloaded to your your computer. Please schedule an appointment, and have this program open when the scheduled appointment starts.", "success")
+  }
+  if (navigator.appVersion.indexOf("Mac")!=-1) {
+    location.href = 'http://download.teamviewer.com/download/TeamViewerQS.dmg';
+    swal("Program Downloaded", "A program called 'TeamViewerQS.dmg' has been downloaded to your your computer. Please schedule an appointment, and have this program open when the scheduled appointment starts.", "success")
+  }
+}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60313931-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Navigation
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top">Brehm IT Consulting</a>
+            </li>
+            <li>
+                <a href="#top">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#references">References</a>
+            </li>
+            <li>
+                <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/563c0432557d95663cb4810e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#top">
+                       Brehm IT
+                    </a>
+                </li>
+                <li>
+                    <a href="#top">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#references">References</a>
+                </li>
+                <!--<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Dropdown heading</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>-->
+                <li>
+                    <a href="#pricing">Pricing and Contact</a>
+                </li>
+                <li>
+                    <a href="#aboutme">About Me</a>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+<script type="text/javascript">
+$(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });
+});
+</script>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="font-family: 'Dosis', sans-serif;">Brehm IT</h1>
+            <h3>Friendly Service, Low Prices, and We're Local!</h3>
+            <br>
+            <a href="#techtip" class="cstm-btn btn btn-light btn-lg" id="tttbutton">Tech Tip Tuesday!</a>
+            <!--<a href="#about" class="cstm-btn2 btn btn-light btn-lg" id="specialannouncement"><b>Special Announcement</b></a>-->
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+
+            <!--<span href="#" class="button" id="toggle-login">Log in</span>-->
+</div>
+
+<div id="login">
+  <div id="triangle"></div>
+  <h1>Log in</h1>
+  <h2>Note: your account name has not been activated if you haven't yet booked an appointment.</h2>
+  <form>
+    <input type="username" placeholder="Full name, separated by a space, capitalized names" id="usernameF"/>
+    <input type="password" placeholder="Your customer PIN number" id="passwordF"/>
+    <input type="button" value="Log in" id="submit"/>
+  </form>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/loginindex.js"></script>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+                <!--<div class="text-center">
+                    <h1><b>Special Announcement:</b></h1>
+                <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/brehmit/posts/1657277784554861" data-width="400"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/brehmit/posts/1657277784554861"><p>It&#039;s back! From the hours of 12:30 to 1:30pm on Sunday November 8th, I will be available to chat on my website...</p>Posted by <a href="https://www.facebook.com/brehmit/">Brehm  I T</a> on&nbsp;<a href="https://www.facebook.com/brehmit/posts/1657277784554861">Thursday, November 5, 2015</a></blockquote></div></div>
+                     <div style="margin-top:100px"></div>-->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Brehm IT strives to be the best technology assistance company out there.</h2>
+                    <p class="lead">You can still choose GeekSquad, if spending tons of money and waiting forever is your thing.</p>
+                </div>
+            </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <section id="techtip" class="bg-primary techtiptue">
+  <h3>Tech Tip Tuesday!</h3>
+  <h2 id="primary">Error: undefined</h2>
+  <h4>Need help with this tip? Contact me with the methods below!</h4>
+  <script>
+  var d = new Date();
+    var n = d.getDay()
+    if (n === 2) {
+      var TTips = ["Keep an entire backup of your computer on BOTH a cloud service (Google Drive, Dropbox, OneDrive) AND a local hard drive (a <a href='http://www.amazon.com/SanDisk-Cruzer-Frustration-Free-Packaging--SDCZ36-016G-AFFP/dp/B007JR5368/ref=sr_1_1?ie=UTF8&qid=1432394357&sr=8-1&keywords=16gb+flash+drive'>16GB Flash Drive</a> should be enough to hold all of your important files.)","Vary the passwords you choose between websites, because if someone hacks your social network, they could gain access to financial info!", "Keep all your devices on the latest version of software. This can fix many issues. However, some issues have arised with new versions. NEVER update to a Beta software on your main device!", "On a computer running Mac OSX, you may be redirected to a page called MacKeeper that will suggest you clean your Mac. This is a partially working program, because it may clean some of your computer, but it mostly exists to annoy you and do other harmful things to your computer. I would recommend <a href='http://macpaw.com/cleanmymac'>CleanMyMac by MacPaw</a> instead.", "A simple reboot will fix most problems. 'Have you tried turning it off and on again?' :)", "Verify that you have your settings configured correctly on your Mac by opening System Preferences, clicking Security and Privacy, clicking General at the top, and looking under 'Allow apps downloaded from'. I would recommend setting this to only Mac App Store and identified developers, but feel free to select your own.", "If you have a laptop, but you work plugged in often, unplug it when it gets to 100%. Overcharging decreases your battery life.", "Secure your Wifi! Change the Wifi password, router password, EVERYTHING. Someone, if on your network, could use arp-spoof to gather your passwords and other info.", "Don't set laptops on cushy surfaces, because the air from the fans will be blocked. This can cause overheating."];
+      document.getElementById('primary').innerHTML = TTips[Math.floor((Math.random() * 9) + 0)];
+      checkCookie();
+  } else {
+    var c = document.getElementById("techtip");
+    var b = document.getElementById("tttbutton");
+    b.className = b.className + " hidden";
+    c.className = c.className + " hidden";
+  }
+</script>
+</section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>The Cloud</strong>
+                                </h4>
+                                <p>The Cloud? That's where we live. We can help you move files, setup connections, and backup your computer, all for a low price.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Internet</strong>
+                                </h4>
+                                <p>Internet not working? No problem. Configuring IP addresses, setting up MAC address limiting and logging, and we can break it down for you.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Initial Setup</strong>
+                                </h4>
+                                <p>If it has a switch, we can configure it. From gaming networks to domain registration, we got it covered.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Viruses</strong>
+                                </h4>
+                                <p>Malware doesn't stand a chance against us. From Superfish to Trojans, we just flush them out and secure you from any future attacks.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+<!-- Head tags to include FontAwesome -->
+<head>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<section id="references">
+<div class="container">
+  <div class="row">
+        <!-- Boxes de Acoes -->
+      <div class="col-xs-12 col-sm-4 col-lg-4">
+      <div class="box">
+        <div class="icon">
+          <div class="image"><i class="fa fa-thumbs-o-up"></i></div>
+          <div class="info">
+            <h3 class="title">Jason S</h3>
+            <p>
+              Thank you Carter for all of your help! You saved me a ton of time and frustration! I will highly recommend you to anyone! Thank you!
+            </p>
+            <div class="more">
+              <a href="https://www.facebook.com/jason.schendt/posts/10202961543351604" title="Original Facebook Post">
+                See Post <i class="fa fa-angle-double-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div>
+    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-4">
+      <div class="box">
+        <div class="icon">
+          <div class="image"><i class="fa fa-thumbs-o-up"></i></div>
+          <div class="info">
+            <h3 class="title">Lisa P</h3>
+              <p>
+              Finally after a year of not knowing what I am doing with electronics and video games, I found a solution. Carter at Brehmit.com fixed everything and more!!!!! Thank you Carter for getting everything working , so the boys can put more games on their Christmas list. Anyone needing computer or other electronic help, give him a try. He is professional, knowledgeable, and affordable.
+            </p>
+            <div class="more">
+              <a>
+                Link Unavailable <i class="fa fa-angle-double-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div>
+    </div>
+
+        <div class="col-xs-12 col-sm-4 col-lg-4">
+      <div class="box">
+        <div class="icon">
+          <div class="image"><i class="fa fa-thumbs-o-up"></i></div>
+          <div class="info">
+            <h3 class="title">Jill B</h3>
+              <p>
+              BEST $$ I have spent in a LONG time. Carter was so knowledgeable. Wow, I was amazed at how quickly all of my IT needs were completed. Why call anyone else??? Thank you Carter!!!
+            </p>
+            <div class="more">
+              <a href="https://www.facebook.com/brehmit/posts/1558491374433503" title="Original Facebook Post">
+                See Post <i class="fa fa-angle-double-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div>
+    </div>
+
+</section>
+    <!--Portfolio
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <p>"Thank you Carter for all of your help! You saved me a ton of time and frustration! I will highly recommend you to anyone! Thank you"</p>
+								<a href="https://www.facebook.com/jason.schendt/posts/10202961543351604">from Jason S</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <p>"BEST $$ I have spent in a LONG time. Carter was so knowledgeable. Wow, I was amazed at how quickly all of my IT needs were completed. Why call anyone else??? Thank you Carter!!!"</p>
+								<a href="https://www.facebook.com/brehmconsulting/posts/1558491374433503">from Jill B</a>
+                            </div>
+                        </div>
+                    <a href="http://facebook.com/brehmconsulting" class="btn btn-dark">Make a Reference on our Facebook Page</a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+<h1></h1>
+<section id="pricing">
+<div class="pricing">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="text-center">
+                        Email</h4>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead">
+                        <strong>Completely Free!</strong></p>
+                        <p id="email"><i>You can email me at carter0906@gmail.com, or by clicking the button below. This method of communication does not allow for complex solutions.</i></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Several Days</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Reply Whenever</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Almost 24/7</li>
+                </ul>
+                <div class="panel-footer">
+                    <a class="btn btn-lg btn-block btn-info" href="mailto:carter0906@gmail.com">Email Now!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h4 class="text-center">
+                        Appointment</h4>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead">
+                        <strong>$15 / Hour</strong><br></p>
+                        <p><i>Estimates are free in the Savanna Shores/Summit Ridge/Grandview area only. For other locations, estimates are $15, which can be applied towards your final bill.</i></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Face-to-Face</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- More Fixes Available</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Weekdays after 5, Weekends</li>
+                </ul>
+                <div class="panel-footer">
+                    <span><a class="btn btn-lg btn-block btn-danger" href="#" id="contactbutton" onClick="contactMethods(); return false;">Contact Me!</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h4 class="text-center">
+                        Online Chat</h4>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead">
+                        <strong>Completely Free!</strong></p>
+                        <p><i>When I am available, a small black bar will appear in the bottom right. Click the button, and enter some info about yourself, and a short description of your issue.</i></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Almost Anytime</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- No Travel or Wait Time</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Chat from Mobile</li>
+                </ul>
+                <div class="panel-footer">
+                    <a class="btn btn-lg btn-block btn-success" href="#" onClick="Tawk_API.maximize(); return false;">Chat Now!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h4 class="text-center">
+                        <b>Screen Sharing!</b></h4>
+                </div>
+                <div class="panel-body text-center">
+                    <p class="lead">
+                        <strong>$15 / Hour</strong><br></p>
+                        <p><i>By downloading a small program, you can give me permission to control your screen. I can fix the problem, with very flexible scheduled times. Mac/Windows only.</i></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Direct Control of Screen</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Communication by Phone</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>- Flexible Schedules</li>
+                </ul>
+                <div class="panel-footer">
+                    <a class="btn btn-lg btn-block btn-warning" href="#contact" onClick="getTV(); return false;">Download Program</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+    <!-- Callout -->
+<!--<section id="contact">
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h2>Estimates are free in the Savanna Shores/Summit Ridge/Grandview area only. For other locations, estimates are $15, which can be applied towards your final bill.</h2>
+        </div>
+    </aside>-->
+
+    <!-- Map>
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>-->
+    <h2></h2>
+
+<section id="aboutme">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+         <div class="well profile">
+            <div class="col-sm-12">
+                <div class="col-xs-12 col-sm-8">
+                    <h2>Carter Brehm</h2>
+                </div>
+                <div class="col-xs-12 col-sm-4 text-center">
+                    <figure>
+                        <img src="CirclePic.png" alt="" class="img-circle img-responsive">
+                        <figcaption class="ratings">
+                            <p>Ratings
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                            <a href="#">
+                                 <span class="fa fa-star"></span>
+                            </a>
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-xs-12 divider text-center">
+                <div class="col-xs-12 col-sm-4 emphasis">
+                    <h2><strong>27</strong></h2>
+                    <p><small>Appointments</small></p>
+                <!--<button class="btn btn-success btn-block"><span class="fa fa-plus-circle"></span> Follow </button>-->
+                </div>
+                <div class="col-xs-12 col-sm-4 emphasis">
+                    <h2><strong>8</strong></h2>
+                    <p><small>Chat Sessions</small></p>
+                <!--<button class="btn btn-info btn-block"><span class="fa fa-user"></span> View Profile </button>-->
+                </div>
+                <div class="col-xs-12 col-sm-4 emphasis">
+                    <h2><strong>102</strong></h2>
+                    <p><small>Followers</small></p>
+                <!--<div class="btn-group dropup btn-block">
+                      <button type="button" class="btn btn-primary"><span class="fa fa-gear"></span> Options </button>
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu text-left" role="menu">
+                        <li><a href="#"><span class="fa fa-envelope pull-right"></span> Send an email </a></li>
+                        <li><a href="#"><span class="fa fa-list pull-right"></span> Add or remove from a list  </a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><span class="fa fa-warning pull-right"></span>Report this user for spam</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" class="btn disabled" role="button"> Unfollow </a></li>
+                      </ul>
+                    </div>-->
+                </div>
+            </div>
+         </div>
+        </div>
+    </div>
+</div>
+</section>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Sidebar Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5760104577670861"
+     data-ad-slot="4731011239"
+     data-ad-format="auto"></ins>
+<div class="text-center">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Brehm IT</strong>
+                    </h4>
+                    <p>Papillion, NE 68046</p>
+                    <ul class="list-unstyled">
+                    <!--<li><i class="fa fa-phone fa-fw"></i> <a href="tel:7082882544">(708) 518-7972</a></li>-->
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:carter0906@gmail.com">carter0906@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://facebook.com/brehmconsulting"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/brehmit"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+       <!--             <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li> -->
+
+                    </ul>
+                    <p class="text-muted">Copyright &copy; Brehm Technology Consulting 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
